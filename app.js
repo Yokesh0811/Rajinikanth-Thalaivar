@@ -1,3 +1,9 @@
+const loader = document.querySelector('.preloader');
+
+window.addEventListener('load', () => {
+    loader.style.display = "none";
+})
+
 const ham = document.querySelector('.hamburger');
 const navlinks = document.querySelector('.nav-links');
 const bar1 = document.querySelector('.bar1');
